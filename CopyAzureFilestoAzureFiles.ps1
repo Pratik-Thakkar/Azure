@@ -4,11 +4,11 @@
 	Set-Alias Az $AzCopy
 	
 ## create azure files
-    $AzFilesSource = "https://imanageauworkservices.file.core.windows.net/sftp-storage/6b2b/PerthDelta2"
-	$SourceKey = "cvc3SmHerOFb8uyAfsrhZcKkNW3hujNOJN9bynwYZUzHo8g6sku454ikWFUDYBYZl5G3XFHyOeDBsTmtPZ+wdg=="
+    $AzFilesSource = "https://xxxx.file.core.windows.net/se/6b/"
+	$SourceKey = ""
 	
-	$AzFilesDest = "https://6b2brbrofs01.file.core.windows.net/sftp-uploads/PerthDelta2"
-	$DestKey = "mS/qdPp19eu3J2e0UBCYvTHgPlNWrAJ3wphS+qqrlvUWB3nCHUpRtd4XYjKCy7HVQbQRZvAq/6aETAnv+qiaSg=="
+	$AzFilesDest = "https://xxxx.file.core.windows.net/sfs/"
+	$DestKey = ""
 	
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
