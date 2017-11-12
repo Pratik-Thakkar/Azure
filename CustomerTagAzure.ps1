@@ -1,5 +1,5 @@
 ﻿Add-AzureRmAccount
-$RGName = 'iManage-Work-Prod-AU'
+$RGName = ''
 $Resources = Find-AzureRmResource -ResourceGroupNameEquals $RGName
 $excluded = @("6b2b*|8d83*|eb54*|sales*")
 
