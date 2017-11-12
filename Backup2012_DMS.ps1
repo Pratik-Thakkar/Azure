@@ -24,7 +24,7 @@ $ComputerName = $env:computername
 # Example: "\\servername\ShareName\Folder"
 # The Computer Name will be appended to the path
 # If you used the example above, the script will create a folder like this: \\servername\ShareName\Folder\ComputerName 
-$BackupRootPath = "\\BackupSvr.azure.imanagework.co.uk\Backup"
+$BackupRootPath = "Location of Backup"
 
 # Number of backups to retain (value of "0" equals disable rotation, keep no backups) 
 $MaxBackup = 60
@@ -36,7 +36,7 @@ $from = "$ComputerName@imanagework.co.uk"
 $to = "indiadevops@imanage.com","globaldevops@imanage.com" 
  
 # SMTP Server 
-$smtpserver = "10.100.2.5" 
+$smtpserver = "x.x.x.x" 
 
 # Send Email on Failure only? 1 = Send on Failure only, 0 = Send always
 $SendEmail = 1
