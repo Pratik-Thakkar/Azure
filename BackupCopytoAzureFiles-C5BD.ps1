@@ -4,8 +4,8 @@
 	Set-Alias Az $AzCopy
 	
 ## create azure files
-	$AzFiles = "https://imanageukworkbackupsa.file.core.windows.net/backup-c5bd/Backup Job C5BDUKDMS01"
-	$SgKey = "JP6QFenlU5BOu8dYaIEPFrnrefWsQ8bP7+XkI2LsETI1rXO1VzM0NazZX6NMGUUVaffRgApUVMZ1vds18LT7sg=="
+	$AzFiles = "https://xxxx.file.core.windows.net/backup-c5bd/Backup Job C5BDUKDMS01"
+	$SgKey = ""
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 	$LogFile = $scriptPath+"\BackupCopytoAzureFiles-C5BD.log"
