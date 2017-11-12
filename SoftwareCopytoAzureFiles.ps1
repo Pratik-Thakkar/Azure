@@ -4,11 +4,11 @@
 	Set-Alias Az $AzCopy
 	
 ## create azure files
-	$AzFiles = "https://imanageukworkbackupsa.file.core.windows.net/imanage-sw"
-	$SgKey = "JP6QFenlU5BOu8dYaIEPFrnrefWsQ8bP7+XkI2LsETI1rXO1VzM0NazZX6NMGUUVaffRgApUVMZ1vds18LT7sg=="
+	$AzFiles = "https://xxxxx.file.core.windows.net/imanage-sw"
+	$SgKey = ""
 	
-	$AzDest = "https://imanagesgworkappdisksa.file.core.windows.net/imanage-sw"
-	$DestKey = "mVhvBrZ+mZ0Fbvm4a9Qppy7DVxJN1F1DeRzBSh/hZZayK8XwOchDUfT2Q2ndE7wqf/IEyioeWumAkUFM9Er8FQ=="
+	$AzDest = "https://xxxxx.file.core.windows.net/imanage-sw"
+	$DestKey = ""
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 	$LogFile = $scriptPath+"\SoftwareCopytoAzureFiles.log"
