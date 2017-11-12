@@ -11,9 +11,9 @@
 ## create azure files
 	New-Item -ItemType Directory -Path \\azuktestfs01.file.core.windows.net\dest\$BkpDirName
 	$AzFilesSrc = "\\azuktestfs01.file.core.windows.net\src"
-	$SgKeySrc = "JP6QFenlU5BOu8dYaIEPFrnrefWsQ8bP7+XkI2LsETI1rXO1VzM0NazZX6NMGUUVaffRgApUVMZ1vds18LT7sg=="
+	$SgKeySrc = "Access Key from Portal"
 	$AzFilesDest = "\\azuktestfs01.file.core.windows.net\dest"+"/"+$BkpDirName
-	$SgKeyDest = "JP6QFenlU5BOu8dYaIEPFrnrefWsQ8bP7+XkI2LsETI1rXO1VzM0NazZX6NMGUUVaffRgApUVMZ1vds18LT7sg=="
+	$SgKeyDest = "Access Key from Portal"
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 	$LogFile = $scriptPath+"\AzureSharetoShare.log"
