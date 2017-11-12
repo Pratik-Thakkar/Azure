@@ -1,7 +1,7 @@
 ﻿Login-AzureRmAccount
-Select-AzureRmSubscription -SubscriptionName 'iManage Work UK'
-$rgName = 'iManage-Work-Prod-UK'
-$vmName = 'd97cUKidx01'
+Select-AzureRmSubscription -SubscriptionName ''
+$rgName = ''
+$vmName = ''
 $vm = Get-AzureRmVM -ResourceGroupName $rgName -Name $vmName
 Stop-AzureRmVM -ResourceGroupName $rgName -Name $vmName
 $vm.StorageProfile.DataDisks[1].DiskSizeGB = 300
