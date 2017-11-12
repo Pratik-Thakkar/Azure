@@ -3,12 +3,12 @@
 	$AzCopy = "C:\Program Files (x86)\Microsoft SDKs\Azure\AzCopy\AzCopy.exe"
 	Set-Alias Az $AzCopy
 
-    $7z = "C:\Program Files\7-Zip\7z.exe"
-    Set-Alias 7z $7z
+	$7z = "C:\Program Files\7-Zip\7z.exe"
+	Set-Alias 7z $7z
 	
 ## create azure files
-	$AzFiles = "https://imanageukworkbackupsa.file.core.windows.net/backup-share"
-	$SgKey = "hYZXBX7t9DqngEONr/cOVRZe7fRsEkqrksogMR+3qlL/RrDychraMS1zQuV/BNaIkNA1V0p/B3Yjr5DJjNvnBg=="
+	$AzFiles = "https://xxxxx.file.core.windows.net/backup-share"
+	$SgKey = ""
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 	$LogFile = $scriptPath+"\CopytoAzureFiles.log"
