@@ -4,7 +4,7 @@
 	Set-Alias Az $AzCopy
 	
 ## create azure files
-	$AzFiles = "https://xxxxx.file.core.windows.net/backup-c5d9/Backup Job C5D9UKDMS01"
+	$AzFiles = "https://xxxxx.file.core.windows.net/backup-c5d9/Backup Job C5D9"
 	$SgKey = ""
 
 	$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -15,7 +15,7 @@
 	echo ""
 	
 ##  client archive directory
-    $Source = "E:\Backup\Backup Job C5D9UKDMS01"
+    $Source = ""
 
 ## copy archived zip files to azure files with AzCopy
 	echo ""	
