@@ -30,10 +30,10 @@ $BackupRootPath = "Location of Backup"
 $MaxBackup = 60
  
 # From Email Address 
-$from = "$ComputerName@imanagework.co.uk" 
+$from = "$ComputerName@.com" 
  
 # To Email Address 
-$to = "indiadevops@imanage.com","globaldevops@imanage.com" 
+$to = "idevops@.com","gdevops@.com" 
  
 # SMTP Server 
 $smtpserver = "x.x.x.x" 
